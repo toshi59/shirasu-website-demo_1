@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Works() {
   const projects = [
     {
@@ -73,9 +75,9 @@ export default function Works() {
             <br />
             まずはお気軽にご相談ください。
           </p>
-          <a href="/contact" className="button-primary">
+          <Link href="/contact" className="button-primary">
             お問い合わせ
-          </a>
+          </Link>
         </div>
       </div>
     </div>
