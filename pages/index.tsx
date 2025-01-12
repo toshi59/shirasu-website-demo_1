@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center">
+      <section className="relative min-h-screen flex items-center justify-center -mt-16">
         <div className="absolute inset-0">
           <Image
             src="/images/hero.jpg"
@@ -58,7 +58,7 @@ export default function Home() {
       {/* Services Section */}
       <section className="py-24 bg-gray-50">
         <div className="container">
-          <h2 className="text-4xl font-bold text-center mb-4">主要サービス</h2>
+          <h2 className="heading-2 text-center mb-4">主要サービス</h2>
           <p className="text-gray-600 text-center mb-16">
             最新のテクノロジーを活用し、お客様のビジネスに最適なソリューションを提供します。
           </p>
@@ -87,7 +87,7 @@ export default function Home() {
       <section className="py-24">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">選ばれる理由</h2>
+            <h2 className="heading-2 mb-4">選ばれる理由</h2>
             <p className="text-gray-600">
               私たちは最新のテクノロジーと豊富な経験を活かし、
               お客様のビジネスの成長を支援します。
