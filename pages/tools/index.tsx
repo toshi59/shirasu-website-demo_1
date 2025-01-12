@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Tools() {
@@ -45,7 +44,7 @@ export default function Tools() {
 
   return (
     <div className="py-12">
-      <div className="container max-w-3xl">
+      <div className="container">
         <h1 className="heading-1 text-center mb-12">無料ツール</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
@@ -92,9 +91,9 @@ export default function Tools() {
           <p className="text-xl text-gray-600 mb-4">
             より高度な機能が必要な場合は、カスタマイズされたツールを開発いたします。
           </p>
-          <Link href="/contact" className="button-primary">
+          <a href="/contact" className="button-primary">
             お問い合わせ
-          </Link>
+          </a>
         </div>
       </div>
     </div>
